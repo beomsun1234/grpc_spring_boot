@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+grpc:
+  client:
+    grpc-book-server:
+      address: 'static://127.0.0.1:9096'
+      negotiation-type: plaintext
+
+
